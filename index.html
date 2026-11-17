@@ -1,180 +1,240 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Política de privacidad – Driving Simulator Perú</title>
-<meta name="description" content="Política de privacidad del juego Driving Simulator Perú, de Corvex Games.">
+<title>Política de privacidad · Driving Simulator Perú</title>
+<meta name="description" content="Política de privacidad y eliminación de cuenta de Driving Simulator Perú, de Corvex Games.">
 <style>
-  * { box-sizing: border-box; }
-  body {
-    max-width: 820px;
-    margin: 36px auto;
-    padding: 0 20px;
-    background: #fff;
-    color: #222;
-    font: 16px/1.65 Arial, Helvetica, sans-serif;
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1d2430; --muted: #5b6575; --line: #e2e6ec;
+    --accent: #c8102e; --link: #0b5cad;
   }
-  header { margin-bottom: 28px; }
-  header h1 { margin: 0 0 4px; font-size: 30px; }
-  header p { margin: 0; color: #555; }
-  main { margin: 0; padding: 0; }
-  .card { padding: 0; border: 0; background: transparent; }
-  nav { margin: 24px 0; padding: 0; }
-  nav strong { display: block; margin-bottom: 6px; }
-  nav ol { margin: 0; padding-left: 22px; columns: 2; column-gap: 28px; }
-  @media (max-width: 560px) { nav ol { columns: 1; } }
-  h2 { margin: 28px 0 8px; font-size: 21px; color: #222; }
-  h3 { margin: 18px 0 4px; font-size: 17px; }
-  p, li { margin: 6px 0; }
-  ul { padding-left: 22px; }
-  a { color: #0645ad; overflow-wrap: anywhere; }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c; --card: #1a2029; --text: #e7ebf1; --muted: #a3adbb; --line: #2c3542;
+      --accent: #ff4d63; --link: #7cb7ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { border-bottom: 3px solid var(--accent); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.25rem; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 20px 0 6px; }
+  p, li { color: var(--text); }
+  .meta { color: var(--muted); margin: 0; }
+  a { color: var(--link); }
+  nav.toc { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 20px; }
+  nav.toc ol { margin: 6px 0; padding-left: 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 4px 20px 12px; margin-top: 12px; }
+  .warn { margin: 12px 0 4px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { background: var(--card); }
   .table-wrap { overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 15px; }
-  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; vertical-align: top; }
-  th { background: #f2f2f2; }
-  .box { border-left: 3px solid #777; padding: 10px 14px; margin: 12px 0; }
-  .muted { color: #555; font-size: 14px; }
-  footer { margin: 36px 0 20px; padding-top: 12px; border-top: 1px solid #ddd; color: #555; font-size: 14px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 16px; }
 </style>
 </head>
 <body>
+<main>
+
 <header>
   <h1>Política de privacidad</h1>
-  <p>Driving Simulator Perú · Corvex Games</p>
+  <p class="meta"><strong>Driving Simulator Perú</strong> · Corvex Games · Cristofer, creador independiente</p>
+  <p class="meta">Última actualización: 17 de noviembre de 2026</p>
 </header>
 
-<main>
-<div class="card">
-  <p class="muted"><strong>Última actualización:</strong> 4 de noviembre de 2026</p>
+<p>Esta política explica qué datos recoge el juego <strong>Driving Simulator Perú</strong>, desarrollado por
+<strong>Corvex Games</strong> (Cristofer, creador independiente), para qué los usamos, con quién los compartimos y cómo puedes eliminarlos.
+Al usar el juego aceptas esta política. Si tienes preguntas, escríbenos a
+<a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a>.</p>
 
-  <p>Esta Política de privacidad explica qué datos recopila el juego <strong>Driving Simulator Perú</strong> (el "Juego"), desarrollado por <strong>Corvex Games</strong> ("nosotros"), para qué los usamos, con quién los compartimos y qué derechos tienes. Al usar el Juego aceptas esta política. Si tienes preguntas, escríbenos a <a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a>.</p>
+<nav class="toc" aria-label="Contenido">
+  <strong>Contenido</strong>
+  <ol>
+    <li><a href="#datos">Datos que recogemos</a></li>
+    <li><a href="#no-recogemos">Datos que no recogemos</a></li>
+    <li><a href="#uso">Para qué usamos los datos</a></li>
+    <li><a href="#terceros">Servicios de terceros</a></li>
+    <li><a href="#publicidad">Publicidad y consentimiento</a></li>
+    <li><a href="#conservacion">Cuánto tiempo guardamos los datos</a></li>
+    <li><a href="#derechos">Tus derechos</a></li>
+    <li><a href="#eliminar-cuenta">Eliminar tu cuenta</a></li>
+    <li><a href="#menores">Menores de edad</a></li>
+    <li><a href="#seguridad">Seguridad</a></li>
+    <li><a href="#cambios">Cambios en esta política</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ol>
+</nav>
 
-  <nav>
-    <strong>Contenido</strong>
-    <ol>
-      <li><a href="#datos">Datos que recopilamos</a></li>
-      <li><a href="#no-recopilamos">Datos que no recopilamos</a></li>
-      <li><a href="#uso">Para qué usamos los datos</a></li>
-      <li><a href="#terceros">Servicios de terceros</a></li>
-      <li><a href="#opciones">Publicidad, análisis y tus opciones</a></li>
-      <li><a href="#conservacion">Conservación de los datos</a></li>
-      <li><a href="#eliminar-cuenta">Tus derechos y cómo eliminar tu cuenta</a></li>
-      <li><a href="#menores">Menores de edad</a></li>
-      <li><a href="#seguridad">Seguridad</a></li>
-      <li><a href="#cambios">Cambios en esta política</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ol>
-  </nav>
-
-  <h2 id="datos">1. Datos que recopilamos</h2>
-
-  <h3>Cuenta de jugador</h3>
-  <p>Al abrir el Juego se crea automáticamente una cuenta de invitado con un identificador anónimo (ID de jugador). De forma opcional puedes crear un nombre de usuario y una contraseña para recuperar tu progreso en otro dispositivo. La contraseña la gestiona Unity Authentication; nosotros no podemos verla.</p>
-
-  <h3>Nombre del conductor</h3>
-  <p>El nombre que eliges dentro del Juego. Puede ser visible para otros jugadores en el modo multijugador.</p>
-
-  <h3>Progreso del juego</h3>
-  <p>Dinero y experiencia del Juego, vehículos, accesorios y efectos comprados, colores, pintura, combustible, trabajo en curso y preferencias de cámara.</p>
-
-  <h3>Compras</h3>
-  <p>Si compras dinero del Juego con dinero real, registramos el número de pedido, el producto, la fecha y el recibo que entrega Google Play, para entregarte lo comprado, evitar fraudes y atender reclamos. <strong>No recibimos ni guardamos los datos de tu tarjeta ni de tu medio de pago</strong>: el pago lo procesa Google Play.</p>
-
-  <h3>Publicidad</h3>
-  <p>El Juego muestra anuncios mediante Google AdMob. Para ello, AdMob puede recopilar el identificador de publicidad de tu dispositivo, tu dirección IP, datos técnicos del dispositivo y datos sobre tu interacción con los anuncios.</p>
-
-  <h3>Datos de uso y rendimiento</h3>
-  <p>Usamos Unity Analytics para saber cómo se usa el Juego:</p>
-  <ul>
-    <li>sesiones y tiempo de juego;</li>
-    <li>eventos dentro del Juego (por ejemplo, trabajos completados, compras y anuncios vistos);</li>
-    <li>rendimiento (como los cuadros por segundo);</li>
-    <li>modelo y sistema operativo del dispositivo, idioma y país aproximado.</li>
-  </ul>
-
-  <h3>Datos de multijugador</h3>
-  <p>Cuando juegas en línea, se envían en tiempo real a los demás jugadores de la sala la posición y el estado de tu vehículo (luces, puertas, accesorios) y tu nombre de conductor.</p>
-
-  <h3>Datos para evitar trampas</h3>
-  <p>Si el Juego detecta un comportamiento imposible (por ejemplo, velocidades o saltos de posición anormales, o valores del vehículo alterados), se registran el ID de jugador reportado, el ID de quien reporta, el motivo y la fecha. Esto puede causar un bloqueo temporal del modo multijugador.</p>
-
-  <h3>Datos técnicos</h3>
-  <p>Para conectarse, nuestros proveedores reciben tu dirección IP y datos técnicos básicos del dispositivo (modelo, sistema operativo y versión del Juego).</p>
-
-  <h2 id="no-recopilamos">2. Datos que NO recopilamos</h2>
-  <p>No recopilamos tu ubicación precisa, contactos, fotos, archivos, mensajes, micrófono ni cámara.</p>
-  <p>Las imágenes que eliges como "skin" para tus vehículos y la música que reproduces en el Juego se quedan en tu dispositivo y no se envían a nuestros servidores.</p>
-  <p>No recibimos datos de tarjetas ni de medios de pago.</p>
-
-  <h2 id="uso">3. Para qué usamos los datos</h2>
-  <ul>
-    <li>Guardar tu progreso y permitirte recuperarlo en otro dispositivo.</li>
-    <li>Validar el dinero, la experiencia y las compras del Juego para evitar trampas y fraudes.</li>
-    <li>Entregar lo que compras con dinero real y atender reembolsos o reclamos.</li>
-    <li>Mostrar anuncios y medir su rendimiento.</li>
-    <li>Hacer funcionar el modo multijugador.</li>
-    <li>Detectar y sancionar trampas en el modo multijugador.</li>
-    <li>Analizar el uso y el rendimiento del Juego para mejorarlo y corregir errores.</li>
-  </ul>
-  <p><strong>No vendemos tus datos personales.</strong></p>
-
-  <h2 id="terceros">4. Servicios de terceros</h2>
-  <p>Usamos estos proveedores, que procesan datos según sus propias políticas de privacidad:</p>
-  <div class="table-wrap">
-  <table>
-    <thead><tr><th>Proveedor</th><th>Para qué</th><th>Política</th></tr></thead>
-    <tbody>
-      <tr><td><strong>Unity Technologies</strong> – Unity Gaming Services (Authentication, Cloud Save, Cloud Code, In-App Purchasing y Analytics)</td><td>Cuentas, guardado en la nube, validación, compras y análisis</td><td><a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a></td></tr>
-      <tr><td><strong>Exit Games</strong> – Photon Fusion</td><td>Conexión multijugador</td><td><a href="https://www.photonengine.com/privacy">photonengine.com/privacy</a></td></tr>
-      <tr><td><strong>Google</strong> – AdMob</td><td>Publicidad</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
-      <tr><td><strong>Google</strong> – Google Play</td><td>Procesamiento de pagos</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
-    </tbody>
-  </table>
-  </div>
-  <p>Cómo usa Google los datos de las apps que muestran sus anuncios: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
-  <p>Estos proveedores pueden almacenar y procesar datos en servidores ubicados fuera de tu país.</p>
-
-  <h2 id="opciones">5. Publicidad, análisis y tus opciones</h2>
-  <p>Los anuncios pueden ser personalizados según tus intereses. Puedes:</p>
-  <ul>
-    <li><strong>Restablecer o eliminar tu identificador de publicidad,</strong> o desactivar los anuncios personalizados, en <strong>Ajustes → Google → Anuncios</strong> de tu dispositivo Android.</li>
-    <li><strong>Elegir si aceptas anuncios personalizados y el análisis de uso</strong> si estás en el Espacio Económico Europeo, el Reino Unido o Suiza. Te lo preguntaremos antes de recopilar esos datos, y puedes cambiar tu elección en cualquier momento desde los ajustes del Juego.</li>
-  </ul>
-  <p>Si no aceptas los anuncios personalizados, seguirás viendo anuncios, pero no basados en tus intereses.</p>
-
-  <h2 id="conservacion">6. Conservación de los datos</h2>
-  <ul>
-    <li><strong>Cuenta y progreso:</strong> mientras tu cuenta exista.</li>
-    <li><strong>Registros de compras con dinero real:</strong> el tiempo que exijan las leyes contables y fiscales, incluso si eliminas tu cuenta.</li>
-    <li><strong>Reportes de trampas:</strong> como máximo 24 horas para contarlos; los bloqueos, el tiempo que duren.</li>
-    <li><strong>Datos de análisis:</strong> según los plazos de Unity Analytics.</li>
-    <li><strong>Datos de las salas multijugador:</strong> no se guardan después de la partida.</li>
-  </ul>
-
-  <h2 id="eliminar-cuenta">7. Tus derechos y cómo eliminar tu cuenta</h2>
-  <p>Puedes pedir acceso a tus datos, su corrección o la eliminación de tu cuenta y de todos sus datos:</p>
-  <ul>
-    <li><strong>Desde el Juego:</strong> en <strong>Cuenta → Eliminar cuenta</strong>.</li>
-    <li><strong>Por correo:</strong> escribiendo a <a href="mailto:corvexgamesdev@gmail.com?subject=Eliminar%20mi%20cuenta%20-%20Driving%20Simulator%20Per%C3%BA">corvexgamesdev@gmail.com</a> con tu nombre de usuario o ID de jugador. Atendemos las solicitudes en un plazo máximo de 30 días.</li>
-  </ul>
-  <div class="box">Al eliminar tu cuenta se borran tu progreso y tus datos del Juego en nuestros servidores, salvo los registros de compras que la ley nos obligue a conservar. El dinero del Juego y los objetos comprados se pierden y no son reembolsables.</div>
-  <p>Más detalles en la página <a href="eliminar-cuenta.html">Eliminar tu cuenta</a>.</p>
-
-  <h2 id="menores">8. Menores de edad</h2>
-  <p>El Juego no está dirigido a menores de 13 años y no recopilamos a sabiendas datos de menores de esa edad. Si eres padre, madre o tutor y crees que un menor nos proporcionó datos, escríbenos y los eliminaremos.</p>
-
-  <h2 id="seguridad">9. Seguridad</h2>
-  <p>Los datos viajan cifrados entre el Juego y los servidores. Los datos sensibles del progreso también se guardan cifrados en el dispositivo. Ningún sistema es completamente seguro, pero tomamos medidas razonables para proteger tu información.</p>
-
-  <h2 id="cambios">10. Cambios en esta política</h2>
-  <p>Podemos actualizar esta política, por ejemplo al agregar nuevas funciones. Publicaremos la nueva versión en esta página con su fecha de actualización. Si los cambios son importantes, te avisaremos dentro del Juego.</p>
-
-  <h2 id="contacto">11. Contacto</h2>
-  <p><strong>Corvex Games</strong><br>Correo: <a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a></p>
+<h2 id="datos">1. Datos que recogemos</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Dato</th><th>Detalle</th><th>Para qué</th></tr></thead>
+  <tbody>
+    <tr><td>Identificador de jugador</td>
+        <td>Al abrir el juego se crea una cuenta de invitado con un ID anónimo. Opcionalmente puedes añadir un
+            <strong>nombre de usuario y contraseña</strong> para recuperar tu cuenta en otro dispositivo.</td>
+        <td>Guardar tu partida y tu cuenta.</td></tr>
+    <tr><td>Nombre de conductor</td>
+        <td>El nombre que eliges dentro del juego. En el modo multijugador lo ven los demás jugadores de tu sala.</td>
+        <td>Perfil y multijugador.</td></tr>
+    <tr><td>Progreso del juego</td>
+        <td>Dinero y experiencia del juego, vehículos, remolques, pinturas, accesorios, bocinas, trabajos y ajustes.</td>
+        <td>Guardar y sincronizar tu partida en la nube.</td></tr>
+    <tr><td>Compras con dinero real</td>
+        <td>Número de pedido, producto y fecha de la compra que nos envía Google Play. <strong>No</strong> recibimos
+            los datos de tu tarjeta ni de tu método de pago.</td>
+        <td>Entregar lo comprado, evitar fraudes y cumplir obligaciones contables.</td></tr>
+    <tr><td>Datos de publicidad</td>
+        <td>El ID de publicidad de tu dispositivo y datos técnicos que usa Google AdMob para mostrar anuncios.</td>
+        <td>Mostrar anuncios y anuncios con recompensa.</td></tr>
+    <tr><td>Uso y rendimiento</td>
+        <td>Eventos del juego (trabajos aceptados, completados o cancelados; anuncios vistos; resultado de compras;
+            conexión al multijugador) y rendimiento (FPS y calidad gráfica), junto con datos del dispositivo
+            (modelo, sistema operativo, idioma, país aproximado).</td>
+        <td>Mejorar el juego y corregir errores.</td></tr>
+    <tr><td>Multijugador</td>
+        <td>Posición, velocidad y estado de tu vehículo (luces, puertas, bocina, suciedad) mientras estás en una sala.
+            No hay chat de texto ni de voz.</td>
+        <td>Que los demás jugadores vean tu vehículo.</td></tr>
+    <tr><td>Reportes antitrampas</td>
+        <td>Si otros jugadores reportan velocidades o saltos imposibles, o el juego detecta valores modificados,
+            se guarda el motivo, la fecha y los IDs implicados.</td>
+        <td>Mantener el multijugador justo (bloqueo temporal de 24 h).</td></tr>
+    <tr><td>Datos técnicos de conexión</td>
+        <td>La dirección IP y datos de red necesarios para conectar con los servidores.</td>
+        <td>Funcionamiento de los servicios en línea y seguridad.</td></tr>
+  </tbody>
+</table>
 </div>
-</main>
 
-<footer>© 2026 Corvex Games · <a href="eliminar-cuenta.html">Eliminar tu cuenta</a></footer>
+<h2 id="no-recogemos">2. Datos que no recogemos</h2>
+<p>El juego <strong>no</strong> accede a tu ubicación precisa (GPS), contactos, mensajes, micrófono, cámara,
+fotos ni archivos personales, y no guarda datos de tarjetas.</p>
+<p>Si usas una <strong>skin personalizada</strong> (imagen PNG) o <strong>música propia</strong>, el archivo lo eliges
+tú y se queda solo en tu dispositivo: no se sube a nuestros servidores.</p>
+
+<h2 id="uso">3. Para qué usamos los datos</h2>
+<ul>
+  <li>Crear y mantener tu cuenta, y guardar y sincronizar tu progreso.</li>
+  <li>Entregar las compras y evitar fraudes y trampas.</li>
+  <li>Mostrar anuncios (incluidos los anuncios con recompensa que eliges ver).</li>
+  <li>Hacer funcionar el modo multijugador.</li>
+  <li>Analizar el uso y el rendimiento para mejorar el juego.</li>
+</ul>
+<p><strong>No vendemos tus datos personales.</strong></p>
+
+<h2 id="terceros">4. Servicios de terceros</h2>
+<p>Usamos estos proveedores, que tratan los datos según sus propias políticas:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Proveedor</th><th>Uso</th><th>Política</th></tr></thead>
+  <tbody>
+    <tr><td>Unity Gaming Services (Unity Technologies): Authentication, Cloud Save, Cloud Code, Analytics</td>
+        <td>Cuenta, guardado en la nube, lógica del servidor y estadísticas de uso.</td>
+        <td><a href="https://unity.com/legal/privacy-policy" rel="noopener">unity.com/legal/privacy-policy</a></td></tr>
+    <tr><td>Photon Fusion (Exit Games)</td>
+        <td>Salas y conexión del modo multijugador.</td>
+        <td><a href="https://www.photonengine.com/privacy" rel="noopener">photonengine.com/privacy</a></td></tr>
+    <tr><td>Google AdMob</td>
+        <td>Anuncios y formulario de consentimiento.</td>
+        <td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a> ·
+            <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">cómo usa Google los datos</a></td></tr>
+    <tr><td>Google Play (facturación)</td>
+        <td>Procesar las compras con dinero real.</td>
+        <td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="publicidad">5. Publicidad y consentimiento</h2>
+<ul>
+  <li>En el Espacio Económico Europeo, Reino Unido y Suiza te pediremos tu consentimiento para anuncios
+      personalizados y para las estadísticas de uso. Puedes cambiarlo en cualquier momento en
+      <strong>Ajustes → Privacidad y anuncios</strong> dentro del juego; si lo retiras, las estadísticas se detienen
+      en ese momento.</li>
+  <li>En cualquier país puedes restablecer tu ID de publicidad o desactivar los anuncios personalizados desde los
+      ajustes de Android (<em>Google → Anuncios</em>).</li>
+</ul>
+
+<h2 id="conservacion">6. Cuánto tiempo guardamos los datos</h2>
+<ul>
+  <li><strong>Cuenta y progreso:</strong> mientras tu cuenta exista. Se borran al eliminarla.</li>
+  <li><strong>Registros de compras:</strong> el tiempo que exijan las leyes contables y fiscales.</li>
+  <li><strong>Reportes antitrampas:</strong> se cuentan durante 24 horas; los bloqueos duran 24 horas.</li>
+  <li><strong>Salas multijugador:</strong> no se guardan al terminar la partida.</li>
+  <li><strong>Estadísticas de uso:</strong> según los plazos de Unity Analytics; una vez eliminada tu cuenta ya no se
+      vinculan a ti.</li>
+</ul>
+
+<h2 id="derechos">7. Tus derechos</h2>
+<p>Puedes pedirnos acceder a tus datos, corregirlos o eliminarlos, y oponerte a ciertos tratamientos o retirar tu
+consentimiento. Escríbenos a <a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a> y te
+responderemos en un máximo de 30 días. Si vives en Perú, también puedes acudir a la Autoridad Nacional de
+Protección de Datos Personales (Ley N.º 29733).</p>
+
+<h2 id="eliminar-cuenta">8. Eliminar tu cuenta</h2>
+<div class="card">
+  <h3>Opción 1: desde el juego</h3>
+  <ol>
+    <li>Abre el juego.</li>
+    <li>Toca el botón <strong>Cuenta</strong> en la esquina superior derecha de la pantalla principal.</li>
+    <li>Toca <strong>Eliminar cuenta</strong> y confirma.</li>
+  </ol>
+
+  <h3>Opción 2: por correo</h3>
+  <p>Escribe a
+    <a href="mailto:corvexgamesdev@gmail.com?subject=Eliminar%20cuenta%20-%20Driving%20Simulator%20Per%C3%BA&amp;body=Hola%2C%20quiero%20eliminar%20mi%20cuenta%20de%20Driving%20Simulator%20Per%C3%BA.%0A%0ANombre%20de%20usuario%20o%20ID%20de%20jugador%3A%20">corvexgamesdev@gmail.com</a>
+    desde cualquier correo, con el asunto «Eliminar cuenta» e indicando tu <strong>nombre de usuario o ID de
+    jugador</strong>. La eliminamos en un máximo de <strong>30 días</strong>; podemos pedirte algún dato para
+    confirmar que la cuenta es tuya.</p>
+
+  <h3>Qué se elimina</h3>
+  <ul>
+    <li>Tu cuenta de jugador: ID, nombre de usuario y contraseña.</li>
+    <li>Tu progreso en la nube: nombre de conductor, dinero, experiencia, vehículos, accesorios, efectos y demás
+        compras dentro del juego.</li>
+    <li>Los reportes y bloqueos antitrampas vinculados a tu cuenta.</li>
+  </ul>
+
+  <h3>Qué se conserva</h3>
+  <ul>
+    <li>Los registros de compras con dinero real (número de pedido, producto y fecha), durante el tiempo que exijan
+        las leyes contables y fiscales.</li>
+    <li>Estadísticas de uso que ya no te identifican.</li>
+  </ul>
+
+  <p class="warn"><strong>Importante:</strong> la eliminación es permanente. El dinero del juego y los objetos
+  comprados se pierden y no son reembolsables. Desinstalar el juego <strong>no</strong> elimina tu cuenta.</p>
+</div>
+
+<h2 id="menores">9. Menores de edad</h2>
+<p>El juego no está dirigido a menores de 13 años y no recogemos a sabiendas datos de menores de esa edad. Si eres
+padre, madre o tutor y crees que un menor nos ha dado datos, escríbenos y los eliminaremos.</p>
+
+<h2 id="seguridad">10. Seguridad</h2>
+<p>Los datos viajan cifrados (HTTPS/TLS) entre el juego y los servidores, y el progreso sensible también se guarda
+cifrado en el dispositivo. Ningún sistema es 100 % seguro, pero aplicamos medidas razonables para proteger tu
+información.</p>
+
+<h2 id="cambios">11. Cambios en esta política</h2>
+<p>Podemos actualizar esta política. Publicaremos la nueva versión en esta página con su fecha, y avisaremos dentro
+del juego si el cambio es importante.</p>
+
+<h2 id="contacto">12. Contacto</h2>
+<p><strong>Corvex Games</strong><br>
+Cristofer, creador independiente<br>
+Correo: <a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a></p>
+
+<footer>
+  © 2026 Corvex Games · Driving Simulator Perú ·
+  <a href="#eliminar-cuenta">Eliminar cuenta</a>
+</footer>
+
+</main>
 </body>
 </html>
