@@ -75,20 +75,23 @@ Al usar el juego aceptas esta política. Si tienes preguntas, escríbenos a
 <table>
   <thead><tr><th>Dato</th><th>Detalle</th><th>Para qué</th></tr></thead>
   <tbody>
-    <tr><td>Identificador de jugador</td>
-        <td>Al abrir el juego se crea una cuenta de invitado con un ID anónimo. Opcionalmente puedes añadir un
-            <strong>nombre de usuario y contraseña</strong> para recuperar tu cuenta en otro dispositivo.</td>
-        <td>Guardar tu partida y tu cuenta.</td></tr>
+    <tr><td>Cuenta de Google Play Games (opcional)</td>
+        <td>Si inicias sesión con Google Play Games, el juego recibe tu <strong>ID de jugador</strong> y tu
+            <strong>nombre visible</strong> de Play Games. Si no inicias sesión, juegas como invitado y la partida solo
+            se guarda en tu dispositivo.</td>
+        <td>Guardar tu partida en tu cuenta de Google y recuperarla en otro dispositivo.</td></tr>
     <tr><td>Nombre de conductor</td>
         <td>El nombre que eliges dentro del juego. En el modo multijugador lo ven los demás jugadores de tu sala.</td>
         <td>Perfil y multijugador.</td></tr>
     <tr><td>Progreso del juego</td>
         <td>Dinero y experiencia del juego, vehículos, remolques, pinturas, accesorios, bocinas, trabajos y ajustes.</td>
-        <td>Guardar y sincronizar tu partida en la nube.</td></tr>
+        <td>Guardar tu partida en tu dispositivo. Solo se sube a las <strong>partidas guardadas de Google Play
+            Games</strong> de tu cuenta de Google cuando tú tocas <strong>Guardar en la nube</strong>. Además, si el
+            juego está recién instalado, revisa tu nube para recuperar la partida que hayas subido.</td></tr>
     <tr><td>Compras con dinero real</td>
-        <td>Número de pedido, producto y fecha de la compra que nos envía Google Play. <strong>No</strong> recibimos
-            los datos de tu tarjeta ni de tu método de pago.</td>
-        <td>Entregar lo comprado, evitar fraudes y cumplir obligaciones contables.</td></tr>
+        <td>Google Play nos confirma el producto comprado y su recibo; el juego guarda un identificador del recibo
+            para no acreditarlo dos veces. <strong>No</strong> recibimos los datos de tu tarjeta ni de tu método de pago.</td>
+        <td>Entregar lo comprado.</td></tr>
     <tr><td>Datos de publicidad</td>
         <td>El ID de publicidad de tu dispositivo y datos técnicos que usa Google AdMob para mostrar anuncios.</td>
         <td>Mostrar anuncios y anuncios con recompensa.</td></tr>
@@ -98,13 +101,14 @@ Al usar el juego aceptas esta política. Si tienes preguntas, escríbenos a
             (modelo, sistema operativo, idioma, país aproximado).</td>
         <td>Mejorar el juego y corregir errores.</td></tr>
     <tr><td>Multijugador</td>
-        <td>Posición, velocidad y estado de tu vehículo (luces, puertas, bocina, suciedad) mientras estás en una sala.
-            No hay chat de texto ni de voz.</td>
+        <td>Un identificador anónimo generado al azar, tu nombre de conductor y la posición, velocidad y estado de tu
+            vehículo (luces, puertas, bocina, suciedad) mientras estás en una sala. No hay chat de texto ni de voz.</td>
         <td>Que los demás jugadores vean tu vehículo.</td></tr>
     <tr><td>Reportes antitrampas</td>
-        <td>Si otros jugadores reportan velocidades o saltos imposibles, o el juego detecta valores modificados,
-            se guarda el motivo, la fecha y los IDs implicados.</td>
-        <td>Mantener el multijugador justo (bloqueo temporal de 24 h).</td></tr>
+        <td>Si otros jugadores de tu sala detectan velocidades o saltos imposibles, se lo avisan a tu juego a través
+            de la sala; si el juego detecta valores modificados, también lo registra. El bloqueo se guarda solo en tu
+            dispositivo: no guardamos estos reportes en ningún servidor.</td>
+        <td>Mantener el multijugador justo (salida de la sala y bloqueo temporal de 24 h).</td></tr>
     <tr><td>Datos técnicos de conexión</td>
         <td>La dirección IP y datos de red necesarios para conectar con los servidores.</td>
         <td>Funcionamiento de los servicios en línea y seguridad.</td></tr>
@@ -120,8 +124,8 @@ tú y se queda solo en tu dispositivo: no se sube a nuestros servidores.</p>
 
 <h2 id="uso">3. Para qué usamos los datos</h2>
 <ul>
-  <li>Crear y mantener tu cuenta, y guardar y sincronizar tu progreso.</li>
-  <li>Entregar las compras y evitar fraudes y trampas.</li>
+  <li>Guardar tu progreso en tu dispositivo y subirlo a tu cuenta de Google Play Games cuando tú lo decidas.</li>
+  <li>Entregar las compras y evitar trampas en el multijugador.</li>
   <li>Mostrar anuncios (incluidos los anuncios con recompensa que eliges ver).</li>
   <li>Hacer funcionar el modo multijugador.</li>
   <li>Analizar el uso y el rendimiento para mejorar el juego.</li>
@@ -134,8 +138,11 @@ tú y se queda solo en tu dispositivo: no se sube a nuestros servidores.</p>
 <table>
   <thead><tr><th>Proveedor</th><th>Uso</th><th>Política</th></tr></thead>
   <tbody>
-    <tr><td>Unity Gaming Services (Unity Technologies): Authentication, Cloud Save, Cloud Code, Analytics</td>
-        <td>Cuenta, guardado en la nube, lógica del servidor y estadísticas de uso.</td>
+    <tr><td>Google Play Games Services</td>
+        <td>Inicio de sesión y partidas guardadas en la nube.</td>
+        <td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
+    <tr><td>Unity Analytics (Unity Technologies)</td>
+        <td>Estadísticas de uso y rendimiento.</td>
         <td><a href="https://unity.com/legal/privacy-policy" rel="noopener">unity.com/legal/privacy-policy</a></td></tr>
     <tr><td>Photon Fusion (Exit Games)</td>
         <td>Salas y conexión del modo multijugador.</td>
@@ -163,9 +170,13 @@ tú y se queda solo en tu dispositivo: no se sube a nuestros servidores.</p>
 
 <h2 id="conservacion">6. Cuánto tiempo guardamos los datos</h2>
 <ul>
-  <li><strong>Cuenta y progreso:</strong> mientras tu cuenta exista. Se borran al eliminarla.</li>
-  <li><strong>Registros de compras:</strong> el tiempo que exijan las leyes contables y fiscales.</li>
-  <li><strong>Reportes antitrampas:</strong> se cuentan durante 24 horas; los bloqueos duran 24 horas.</li>
+  <li><strong>Progreso en Google Play Games:</strong> la última partida que subiste con <em>Guardar en la nube</em>, en tu
+      cuenta de Google, hasta que elimines tu cuenta desde el juego o borres los datos del juego en Google Play Juegos.</li>
+  <li><strong>Progreso en el dispositivo:</strong> hasta que elimines tu cuenta desde el juego o desinstales el juego.
+      Si desinstalas el juego sin haber subido tu partida a la nube, ese progreso se pierde.</li>
+  <li><strong>Compras:</strong> el registro de cada compra lo conserva Google Play según su propia política.</li>
+  <li><strong>Reportes antitrampas:</strong> solo durante la partida en la sala; los bloqueos duran 24 horas en tu
+      dispositivo.</li>
   <li><strong>Salas multijugador:</strong> no se guardan al terminar la partida.</li>
   <li><strong>Estadísticas de uso:</strong> según los plazos de Unity Analytics; una vez eliminada tu cuenta ya no se
       vinculan a ti.</li>
@@ -188,18 +199,22 @@ Protección de Datos Personales (Ley N.º 29733).</p>
 
   <h3>Qué se elimina</h3>
   <ul>
-    <li>Tu cuenta de jugador: ID, nombre de usuario y contraseña.</li>
-    <li>Tu progreso en la nube: nombre de conductor, dinero, experiencia, vehículos, accesorios, efectos y demás
-        compras dentro del juego.</li>
-    <li>Los reportes y bloqueos antitrampas vinculados a tu cuenta.</li>
+    <li>Tu partida guardada en Google Play Games: nombre de conductor, dinero, experiencia, vehículos, accesorios,
+        efectos y demás compras dentro del juego.</li>
+    <li>Todos los datos del juego guardados en tu dispositivo, incluido el bloqueo antitrampas.</li>
+    <li>Se pide a Unity Analytics que borre las estadísticas vinculadas a tu dispositivo.</li>
   </ul>
 
   <h3>Qué se conserva</h3>
   <ul>
-    <li>Los registros de compras con dinero real (número de pedido, producto y fecha), durante el tiempo que exijan
-        las leyes contables y fiscales.</li>
+    <li>Tu cuenta de Google: no se borra, solo los datos de este juego.</li>
+    <li>Los registros de compras que conserva Google Play.</li>
     <li>Estadísticas de uso que ya no te identifican.</li>
   </ul>
+
+  <h3>Sin instalar el juego</h3>
+  <p>También puedes borrar la partida guardada de este juego desde la configuración de la app
+     <strong>Google Play Juegos</strong> o desde tu cuenta de Google, en la sección de datos de Play Juegos.</p>
 
   <p class="warn"><strong>Importante:</strong> la eliminación es permanente. El dinero del juego y los objetos
   comprados se pierden y no son reembolsables. Desinstalar el juego <strong>no</strong> elimina tu cuenta.</p>
