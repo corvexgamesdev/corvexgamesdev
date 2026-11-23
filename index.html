@@ -1,0 +1,98 @@
+      </section>
+
+      <section class="section" id="informacion-legal" aria-labelledby="legal-title">
+        <p class="eyebrow">Información del juego</p>
+        <h2 id="legal-title">Privacidad y condiciones, a tu alcance.</h2>
+        <p class="muted">Consulta cómo se utilizan los datos y las condiciones para jugar y usar los servicios.</p>
+        <div class="legal-grid">
+          <article class="legal-card">
+            <h3>Política de privacidad</h3>
+            <p>Datos, guardado del progreso, proveedores, opciones de privacidad y eliminación de cuenta.</p>
+            <a href="politica-de-privacidad.html">Leer política de privacidad</a>
+          </article>
+          <article class="legal-card">
+            <h3>Términos del servicio</h3>
+            <p>Uso del juego, compras, moneda virtual, publicidad y normas del multijugador.</p>
+            <a href="terminos-del-servicio.html">Leer términos del servicio</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-row">
+          <div>
+            <p class="eyebrow">Hablemos</p>
+            <h2 id="contact-title">Contacto y soporte</h2>
+            <p>¿Tienes una consulta, encontraste un error o quieres compartir una sugerencia sobre el juego?
+              Puedes escribirme por correo.</p>
+          </div>
+          <a class="contact-link" href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Corvex Games · Cristofer, creador independiente</p>
+      <nav class="footer-links" aria-label="Información legal">
+        <a href="politica-de-privacidad.html">Privacidad</a>
+        <a href="terminos-del-servicio.html">Términos del servicio</a>
+        <a href="politica-de-privacidad.html#eliminar-cuenta">Eliminar cuenta</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="site-menu" aria-labelledby="menu-title">
+    <div class="drawer-header">
+      <h2 id="menu-title">Corvex Games</h2>
+      <button class="close-menu" id="close-menu" type="button" aria-label="Cerrar menú">×</button>
+    </div>
+    <nav class="drawer-nav" aria-label="Menú del sitio">
+      <a href="#inicio">Inicio</a>
+      <a href="#juego">Driving Simulator Perú</a>
+      <a href="#creador">Sobre Cristofer</a>
+      <a href="politica-de-privacidad.html">Política de privacidad</a>
+      <a href="terminos-del-servicio.html">Términos del servicio</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <p class="drawer-caption">Driving Simulator Perú<br>Cristofer · Creador independiente</p>
+  </dialog>
+
+  <script>
+    (() => {
+      const menu = document.getElementById('site-menu');
+      const openButton = document.getElementById('open-menu');
+      const closeButton = document.getElementById('close-menu');
+
+      // Si el navegador no admite diálogos, los enlaces de la página siguen disponibles.
+      if (typeof menu.showModal !== 'function') return;
+      document.documentElement.classList.add('has-js');
+
+      openButton.addEventListener('click', () => {
+        if (menu.open) return;
+        menu.showModal();
+        openButton.setAttribute('aria-expanded', 'true');
+        document.body.classList.add('menu-open');
+      });
+
+      closeButton.addEventListener('click', () => menu.close());
+
+      menu.addEventListener('click', (event) => {
+        if (event.target.closest('a')) menu.close();
+        if (event.target === menu) {
+          const bounds = menu.getBoundingClientRect();
+          if (event.clientX < bounds.left || event.clientX > bounds.right ||
+              event.clientY < bounds.top || event.clientY > bounds.bottom) menu.close();
+        }
+      });
+
+      // El evento también se dispara al cerrar con Escape.
+      menu.addEventListener('close', () => {
+        openButton.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('menu-open');
+      });
+    })();
+  </script>
+</body>
+</html>
