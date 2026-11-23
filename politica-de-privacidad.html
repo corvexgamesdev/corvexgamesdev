@@ -36,10 +36,20 @@
   th { background: var(--card); }
   .table-wrap { overflow-x: auto; }
   footer { margin-top: 40px; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 16px; }
+  .page-nav { position: sticky; top: 0; z-index: 10; background: var(--bg); padding: 12px 0; margin: -12px 0 20px; }
+  .back-home { display: inline-flex; align-items: center; justify-content: center; min-height: 44px;
+               padding: 8px 16px; border: 1px solid var(--line); border-radius: 7px;
+               background: var(--card); color: var(--text); text-decoration: none; font-weight: 600; }
+  .back-home:hover { border-color: var(--accent); color: var(--accent); }
+  .back-home:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 </style>
 </head>
 <body>
 <main>
+
+<nav class="page-nav" aria-label="Navegación de la página">
+  <a class="back-home" href="index.html">Volver al inicio</a>
+</nav>
 
 <header>
   <h1>Política de privacidad</h1>
@@ -242,6 +252,7 @@ Cristofer, creador independiente<br>
 Correo: <a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a></p>
 
 <footer>
+  <p><a class="back-home" href="index.html">Volver al inicio</a></p>
   © 2026 Corvex Games · Driving Simulator Perú ·
   <a href="#eliminar-cuenta">Eliminar cuenta</a>
 </footer>
