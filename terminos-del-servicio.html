@@ -38,10 +38,20 @@
   footer { margin-top: 40px; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 16px; }
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
   p, li, td { overflow-wrap: anywhere; }
+  .page-nav { position: sticky; top: 0; z-index: 10; background: var(--bg); padding: 12px 0; margin: -12px 0 20px; }
+  .back-home { display: inline-flex; align-items: center; justify-content: center; min-height: 44px;
+               padding: 8px 16px; border: 1px solid var(--line); border-radius: 7px;
+               background: var(--card); color: var(--text); text-decoration: none; font-weight: 600; }
+  .back-home:hover { border-color: var(--accent); color: var(--accent); }
+  .back-home:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 </style>
 </head>
 <body>
 <main id="inicio">
+
+<nav class="page-nav" aria-label="Navegación de la página">
+  <a class="back-home" href="index.html">Volver al inicio</a>
+</nav>
 
 <header>
   <h1>Términos del servicio</h1>
@@ -273,8 +283,8 @@ Cristofer, creador independiente<br>
 Correo: <a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a></p>
 
 <footer>
+  <p><a class="back-home" href="index.html">Volver al inicio</a></p>
   © 2026 Corvex Games · Driving Simulator Perú ·
-  <a href="index.html">Inicio</a> ·
   <a href="politica-de-privacidad.html">Política de privacidad</a> ·
   <a href="#inicio">Volver arriba</a>
 </footer>
