@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Términos del servicio · Driving Simulator Perú</title>
+<meta name="description" content="Términos del servicio de Driving Simulator Perú, de Corvex Games: uso del juego, compras, progreso, publicidad y multijugador.">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1d2430; --muted: #5b6575; --line: #e2e6ec;
+    --accent: #c8102e; --link: #0b5cad;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c; --card: #1a2029; --text: #e7ebf1; --muted: #a3adbb; --line: #2c3542;
+      --accent: #ff4d63; --link: #7cb7ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { border-bottom: 3px solid var(--accent); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.25rem; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 20px 0 6px; }
+  p, li { color: var(--text); }
+  .meta { color: var(--muted); margin: 0; }
+  a { color: var(--link); }
+  nav.toc { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 20px; }
+  nav.toc ol { margin: 6px 0; padding-left: 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 4px 20px 12px; margin-top: 12px; }
+  .warn { margin: 12px 0 4px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { background: var(--card); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 16px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  p, li, td { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main id="inicio">
+
+<header>
+  <h1>Términos del servicio</h1>
+  <p class="meta"><strong>Driving Simulator Perú</strong> · Corvex Games · Cristofer, creador independiente</p>
+  <p class="meta">Última actualización: 22 de noviembre de 2026</p>
+</header>
+
+<p>Estos términos regulan el uso de <strong>Driving Simulator Perú</strong>, desarrollado por
+<strong>Corvex Games</strong> (Cristofer, creador independiente). Léelos antes de jugar. Al utilizar el juego aceptas
+estos términos; si no estás de acuerdo, no lo utilices. Para consultas, compras o problemas con tu partida, escribe a
+<a href="mailto:corvexgamesdev@gmail.com">corvexgamesdev@gmail.com</a>.</p>
+
+<div class="card">
+  <h3>Lo más importante</h3>
+  <ul>
+    <li>Es un juego de entretenimiento: no enseña ni autoriza a conducir en la vida real.</li>
+    <li>Los soles y objetos del juego son virtuales y no se pueden cambiar por dinero real.</li>
+    <li>Sin guardar en Google Play Juegos, tu progreso depende de la partida de tu dispositivo.</li>
+    <li>Las skins personalizadas solo se usan en solitario: se desactivan al entrar al multijugador.</li>
+    <li>Estos términos no eliminan tus derechos como consumidor.</li>
+  </ul>
+</div>
+
+<nav class="toc" aria-label="Contenido">
+  <strong>Contenido</strong>
+  <ol>
+    <li><a href="#uso">Uso del juego y edad</a></li>
+    <li><a href="#seguridad">Simulación y uso seguro</a></li>
+    <li><a href="#progreso">Perfil y guardado del progreso</a></li>
+    <li><a href="#contenido-virtual">Moneda, experiencia y objetos virtuales</a></li>
+    <li><a href="#compras">Compras con dinero real y reembolsos</a></li>
+    <li><a href="#publicidad">Publicidad y recompensas</a></li>
+    <li><a href="#multijugador">Multijugador y normas de conducta</a></li>
+    <li><a href="#antitrampas">Antitrampas y restricciones</a></li>
+    <li><a href="#personalizacion">Skins personalizadas y música propia</a></li>
+    <li><a href="#propiedad">Propiedad intelectual</a></li>
+    <li><a href="#disponibilidad">Disponibilidad y actualizaciones</a></li>
+    <li><a href="#eliminar-cuenta">Eliminar tu cuenta o dejar de jugar</a></li>
+    <li><a href="#privacidad">Privacidad y servicios de terceros</a></li>
+    <li><a href="#responsabilidad">Responsabilidad y derechos del consumidor</a></li>
+    <li><a href="#cambios">Cambios en estos términos</a></li>
+    <li><a href="#contacto">Ley aplicable, consultas y reclamaciones</a></li>
+  </ol>
+</nav>
+
+<h2 id="uso">1. Uso del juego y edad</h2>
+<p>Te concedemos una licencia personal, limitada y no exclusiva para instalar y utilizar el juego con fines de
+entretenimiento, conforme a estos términos y a las reglas de la tienda desde la que lo obtuviste. Esta licencia no
+transfiere la propiedad del juego ni autoriza a revenderlo o distribuir copias no autorizadas.</p>
+<p>El juego no está dirigido a menores de <strong>13 años</strong>. Debes cumplir también la clasificación por edades
+y los requisitos aplicables en tu país y en los servicios que utilices. Si no has alcanzado la mayoría de edad,
+necesitas la autorización de tu madre, padre o tutor para utilizar el juego y realizar compras cuando corresponda.</p>
